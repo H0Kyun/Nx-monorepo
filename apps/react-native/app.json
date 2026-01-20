@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ReactNative",
+    "slug": "@org/react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash.png",
+    "scheme": "orgreactnative",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.orgreactnative"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.orgreactnative"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#f0f0f0"
+        }
+      ]
+    ]
+  }
+}
